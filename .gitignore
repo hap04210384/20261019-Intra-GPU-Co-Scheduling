@@ -1,0 +1,28 @@
+# Datasets and large binaries never enter the repository.
+TransactionSets/
+datasets/
+data/
+*.dat
+*.txt
+!LICENSE
+!README.md
+*.zip
+*.tar.gz
+
+# Build products
+run/
+build/
+*.obj
+*.o
+*.exe
+*.exp
+*.lib
+*.pdb
+*.ilk
+*.log
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
