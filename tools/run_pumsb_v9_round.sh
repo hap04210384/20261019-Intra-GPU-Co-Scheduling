@@ -5,8 +5,8 @@ R="$1"
 DS=pumsb_x256.txt; DSNAME=pumsb_x256; TH=0.80
 THF=$(printf "%f" "$TH")
 RES="TransactionSets/${DS}-${THF}=Results.txt"
-OUT="E:/20261011-paper-Super processor/kimi_work/experiments/results/results_campaignA_v9_pumsb_x256.txt"
-LOGDIR="E:/20261011-paper-Super processor/kimi_work/experiments/results/router_logs_v9"; mkdir -p "$LOGDIR"
+OUT="E:/20261011-paper-Super processor/Manuscript_work/experiments/results/results_campaignA_v9_pumsb_x256.txt"
+LOGDIR="E:/20261011-paper-Super processor/Manuscript_work/experiments/results/router_logs_v9"; mkdir -p "$LOGDIR"
 if [ "$R" = "1" ]; then
   echo "== campaignA v9 ${DSNAME}@${TH} FULL per-round (baseline+bmma+routerD+routerE, $(date) ==" > "$OUT"
 fi
